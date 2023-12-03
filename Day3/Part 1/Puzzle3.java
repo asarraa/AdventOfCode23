@@ -85,9 +85,6 @@ public class Puzzle3 {
                     k=string.length();
                 }
 
-
-                System.out.println("numero trovato: " + limits[2]);
-
                 if(limits[0]!=0 && limits[1]!=(string.length()-1)){
             if(actualLineNumber!=0 && actualLineNumber!=max) 
             {
@@ -234,13 +231,11 @@ public class Puzzle3 {
         number=0;
     }
         actualLineNumber++;
-
-        //caso ottimo, numero non ai limiti della linea e linea non ai limiti
         
     }
 
     public void getSum(){
-        System.out.println(sum);
+        System.out.println("The sum is:" + sum);
     }
 
 }
