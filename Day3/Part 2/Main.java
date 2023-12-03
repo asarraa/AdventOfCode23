@@ -9,7 +9,7 @@ public class Main {
         public static void main(String args[]) throws FileNotFoundException{
         String line;
         Puzzle3 puzzle=new Puzzle3();
-        Scanner sc= new Scanner(new FileReader("package3pt2/test.txt"));
+        Scanner sc= new Scanner(new FileReader("test.txt"));
         while(sc.hasNextLine()){
             
             line=sc.nextLine();
@@ -17,7 +17,7 @@ public class Main {
 
         }
         puzzle.actualLineNumberResetter();
-        Scanner sc2=new Scanner(new FileReader("package3pt2/test.txt"));
+        Scanner sc2=new Scanner(new FileReader("test.txt"));
         while(sc2.hasNextLine()){
             line=sc2.nextLine();
             puzzle.numbersChecker(line);
